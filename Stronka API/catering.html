@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Koszt Dowozu Cateringu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Kalkulator Dowozu Cateringu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="kurs dolara.html">Kurs dolara</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="catering.html">Catering</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kalkulator Dowozu Cateringu</h2>
+            <h4>Cena za kilometr: 4 PLN</h4>
+                <label for="kilometersInput" >Podaj liczbę kilometrów:</label>
+                <input type="number" id="kilometersInput" placeholder="Podaj liczbę kilometrów" required>
+                <button id="cateringBtn">Oblicz koszt dowozu</button>        
+            <p id="costOutput"></p>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
